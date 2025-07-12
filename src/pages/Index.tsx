@@ -85,9 +85,9 @@ const Index = () => {
                   ПРОФЕССИОНАЛЬНАЯ МОДЕЛЬ
                 </Badge>
                 <h2 className="text-5xl md:text-6xl font-light text-black leading-tight">
-                  Анна
+                  Софья
                   <br />
-                  <span className="font-bold">Петрова</span>
+                  <span className="font-bold">Заева</span>
                 </h2>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed max-w-md">
@@ -112,7 +112,7 @@ const Index = () => {
               <div className="aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden">
                 <img
                   src="/img/31835b29-1339-41a8-8cb7-e481ac986ab8.jpg"
-                  alt="Анна Петрова - профессиональная модель"
+                  alt="Софья Заева - профессиональная модель"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -260,7 +260,7 @@ const Index = () => {
       <footer className="bg-white border-t border-gray-100 py-8 px-6">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <p className="text-sm text-gray-500">
-            © 2024 Анна Петрова. Все права защищены.
+            © 2024 Софья Заева. Все права защищены.
           </p>
           <div className="flex gap-4">
             <Button variant="ghost" size="sm">
