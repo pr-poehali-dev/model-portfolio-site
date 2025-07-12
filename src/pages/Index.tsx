@@ -37,7 +37,23 @@ const Index = () => {
       category: "commercial",
     },
     {
-      src: "/img/ac288224-ebe8-464b-80ee-bfa816f75f84.jpg",
+      src: "https://cdn.poehali.dev/files/51f56958-9038-49ea-b730-d12de3290aaa.jpeg",
+      category: "creative",
+    },
+    {
+      src: "https://cdn.poehali.dev/files/a79f2b05-7d83-430b-a57c-a560761d6b2e.jpeg",
+      category: "creative",
+    },
+    {
+      src: "https://cdn.poehali.dev/files/fa4593ef-ee7b-4d96-89c0-7c51a86929a4.jpeg",
+      category: "creative",
+    },
+    {
+      src: "https://cdn.poehali.dev/files/6026690e-c6b3-4dc2-a001-c0f602f305da.jpeg",
+      category: "creative",
+    },
+    {
+      src: "https://cdn.poehali.dev/files/82bd40b0-bac6-40cc-8152-b6d3c5503ace.jpeg",
       category: "creative",
     },
   ];
