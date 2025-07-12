@@ -123,7 +123,7 @@ const Index = () => {
             <div className="relative">
               <div className="aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden">
                 <img
-                  src="/img/31835b29-1339-41a8-8cb7-e481ac986ab8.jpg"
+                  src="/img/7d9ebdb2-5cd1-4bf1-9b37-ec57991c607c.jpg"
                   alt="Софья Заева - профессиональная модель"
                   className="w-full h-full object-cover"
                 />
