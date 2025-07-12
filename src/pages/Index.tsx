@@ -37,24 +37,20 @@ const Index = () => {
       category: "commercial",
     },
     {
-      src: "https://cdn.poehali.dev/files/51f56958-9038-49ea-b730-d12de3290aaa.jpeg",
-      category: "creative",
+      src: "https://cdn.poehali.dev/files/e740af82-d10e-4104-bbd3-cc2098ae71ea.jpeg",
+      category: "portrait",
     },
     {
-      src: "https://cdn.poehali.dev/files/a79f2b05-7d83-430b-a57c-a560761d6b2e.jpeg",
-      category: "creative",
+      src: "https://cdn.poehali.dev/files/aea272f4-0dc0-4a5f-936d-7f47bbf1f6dd.jpeg",
+      category: "portrait",
     },
     {
-      src: "https://cdn.poehali.dev/files/fa4593ef-ee7b-4d96-89c0-7c51a86929a4.jpeg",
-      category: "creative",
+      src: "https://cdn.poehali.dev/files/bef24cd0-0b2d-4b38-a237-594c803cf276.jpeg",
+      category: "portrait",
     },
     {
-      src: "https://cdn.poehali.dev/files/6026690e-c6b3-4dc2-a001-c0f602f305da.jpeg",
-      category: "creative",
-    },
-    {
-      src: "https://cdn.poehali.dev/files/82bd40b0-bac6-40cc-8152-b6d3c5503ace.jpeg",
-      category: "creative",
+      src: "https://cdn.poehali.dev/files/e096edbb-7806-438c-bd2b-f958c8e8d8e9.jpeg",
+      category: "portrait",
     },
   ];
 
@@ -155,11 +151,11 @@ const Index = () => {
             <h3 className="text-3xl font-light text-black mb-4">Портфолио</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Примеры работ в различных направлениях: от съёмок для
-              маркетплейсов до креативных проектов
+              маркетплейсов до портретных съёмок
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {portfolioImages.map((image, index) => (
               <Card
                 key={index}
@@ -177,7 +173,6 @@ const Index = () => {
                     <Badge variant="secondary" className="text-xs">
                       {image.category === "portrait" && "Портретная съёмка"}
                       {image.category === "commercial" && "Коммерческая съёмка"}
-                      {image.category === "creative" && "Креативная съёмка"}
                     </Badge>
                   </div>
                 </CardContent>
